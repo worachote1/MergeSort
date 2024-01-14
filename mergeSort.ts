@@ -1,5 +1,5 @@
 // MergeSort funtion
-const merge =(collection1: number[], collection2: number[]): number[] => {
+export const merge =(collection1: number[], collection2: number[]): number[] => {
     let res: number[] = [];
     let pLeft = 0;
     let pRight = 0;
@@ -27,10 +27,7 @@ const merge =(collection1: number[], collection2: number[]): number[] => {
     return res;
 }
 
-// Unit test
 // for execute :
 // npx ts-node mergeSort.ts
-const testList1 = [1, 3, 5, 7];
-const testList2 = [2, 4, 6, 8];
+// console.log(merge([1,2,3,4],[5,6,7,8]))
 
-console.log(merge(testList1,testList2))
