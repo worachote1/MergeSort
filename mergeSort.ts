@@ -28,6 +28,6 @@ export const merge =(collection1: number[], collection2: number[]): number[] => 
 }
 
 // for execute :
-// npx ts-node mergeSort.ts
-// console.log(merge([1,2,3,4],[5,6,7,8]))
+// ts-node mergeSort.ts
+console.log(merge([1,2,3,4],[5,6,7,8]))
 
